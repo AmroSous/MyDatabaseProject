@@ -1,0 +1,16 @@
+package company;
+
+import company.StoresPK;
+import java.math.BigInteger;
+import javax.annotation.processing.Generated;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2022-04-23T06:26:15", comments="EclipseLink-2.7.9.v20210604-rNA")
+@StaticMetamodel(Stores.class)
+public class Stores_ { 
+
+    public static volatile SingularAttribute<Stores, BigInteger> quantity;
+    public static volatile SingularAttribute<Stores, StoresPK> storesPK;
+
+}
